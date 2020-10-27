@@ -3,10 +3,10 @@ from test import *
 testBase = TestBase()
 print(testBase.driver.session_id)
 
-user_valid = "300011113"
-user_invalid = "300011112"
-password_valid = "ezcorp"
-password_invalid = "procze"
+user_valid = "xxxx"
+user_invalid = "xxxx"
+password_valid = "xxxx"
+password_invalid = "xxxx"
 
 execution_start = time()
 
