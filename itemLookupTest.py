@@ -3,10 +3,10 @@ from test import *
 testBase = TestBase()
 print(testBase.driver.session_id)
 
-user_valid = "300011113"
-password_valid = "ezcorp"
-item_id_valid = "010050761557"
-item_id_prohibited = "012563399849"
+user_valid = "xxxxx"
+password_valid = "xxxx"
+item_id_valid = "xxx"
+item_id_prohibited = "xxx"
 random_bulk = random.randint(1, 4)
 random_int = round(random.uniform(1, 999))
 random_float = round(random.uniform(1, 999), 2)
