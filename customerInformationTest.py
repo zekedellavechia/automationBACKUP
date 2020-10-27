@@ -3,16 +3,16 @@ from test import *
 testBase = TestBase()
 print(testBase.driver.session_id)
 
-user_valid = "300011113"
-password_valid = "ezcorp"
-customer_info_name = "Pablo"
-customer_info_lastname = "Fernandez"
-customer_info_phone = "1234567890"
-customer_info_email = "pablo.fernandez@softvision.com"
-customer_info_invalid_name = "123"
-customer_info_invalid_lastname = "456"
-customer_info_invalid_phone = "abc"
-customer_info_invalid_email = "1a2s"
+user_valid = "xxxx"
+password_valid = "xxxx"
+customer_info_name = "xxxx"
+customer_info_lastname = "xxxxx"
+customer_info_phone = "xxxx"
+customer_info_email = "xxxxxxx@mail"
+customer_info_invalid_name = "xxxx"
+customer_info_invalid_lastname = "xxxx"
+customer_info_invalid_phone = "xxxx"
+customer_info_invalid_email = "xxxx"
 
 execution_start = time()
 
