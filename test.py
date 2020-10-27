@@ -15,22 +15,22 @@ from selenium.webdriver.support import expected_conditions
 des_cap = {
   "platformName": "android",
   "deviceName": "Android Emulator",
-  "appPackage": "com.ezcorp.ezroam.dev.sv",
-  "appActivity": "com.ezcorp.ezroam.MainActivity",
+  "appPackage": "com.xxxxx",
+  "appActivity": "com.xxxxxx",
   "newCommandTimeout": 10000
 }
 #MOCK
 """platformName": "android",
   "deviceName": "Android Emulator",
-  "appPackage": "com.ezcorp.ezroam.mock",
-  "appActivity": "com.ezcorp.ezroam.MainActivity",
+  "appPackage": "com.xxxxxx",
+  "appActivity": "com.xxxxxx",
   "newCommandTimeout": 10000"""
 
 #SV_DEV
 """platformName": "android",
   "deviceName": "Android Emulator",
-  "appPackage": "com.ezcorp.ezroam.dev.sv",
-  "appActivity": "com.ezcorp.ezroam.MainActivity",
+  "appPackage": "com.xxxxxx",
+  "appActivity": "com.xxxxxx",
   "newCommandTimeout": 10000"""
 
 class TestBase():
