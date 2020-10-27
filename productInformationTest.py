@@ -3,11 +3,11 @@ from test import *
 testBase = TestBase()
 print(testBase.driver.session_id)
 
-user_valid = "300011113"
-password_valid = "ezcorp"
-item_id_valid = "010050761557"
-regular_item_id = "456789999999"
-jewerly_item_id = "010050761557"
+user_valid = "xxxx"
+password_valid = "xxxx"
+item_id_valid = "xxx"
+regular_item_id = "xxx"
+jewerly_item_id = "xxx"
 
 execution_start = time()
 
