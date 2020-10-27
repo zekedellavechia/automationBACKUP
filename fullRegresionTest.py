@@ -3,23 +3,23 @@ from test import *
 testBase = TestBase()
 print(testBase.driver.session_id)
 
-user_valid = "300011113"
-user_invalid = "0987654321"
-password_valid = "ezcorp"
-password_invalid = "procze"
+user_valid = "xxxx"
+user_invalid = "xxxx"
+password_valid = "xxxx"
+password_invalid = "xxxx"
 random_bulk = random.randint(1, 4)
 random_int = round(random.uniform(1, 999))
 random_float = round(random.uniform(1, 999), 2)
-item_id_valid_creditCard = "010050782684"
-item_id_valid_cash = "010050761557"
-item_id_invalid = "000000000000"
+item_id_valid_creditCard = "xxxxx"
+item_id_valid_cash = "xxxxx"
+item_id_invalid = "xxxxx"
 item_id_reuse = item_id_valid_cash
-item_id_variety1 = "345679999999"
-item_id_variety2 = "010050763993"
-customer_info_name = "Pablo"
-customer_info_lastname = "Fernandez"
-customer_info_phone = "1234567890"
-customer_info_email = "pablo.fernandez@softvision.com"
+item_id_variety1 = "xxxxx"
+item_id_variety2 = "xxxxx"
+customer_info_name = "xxxx"
+customer_info_lastname = "xxxx"
+customer_info_phone = "xxxx"
+customer_info_email = "xxxxxxxxx@xxx.com"
 
 execution_start = time()
 
